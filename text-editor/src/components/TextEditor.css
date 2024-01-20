@@ -1,0 +1,90 @@
+/* src/components/TextEditor.css */
+
+.text-editor-container {
+    display: flex;
+    justify-content: space-between;
+
+  }
+  
+  .text-section {
+
+    width: 50%;
+    padding: 40px;
+    border-radius: 5px;
+    border: 3px solid #67a6ea;
+    margin-top: 20px;
+  }
+  
+  .toolbar-section {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Add more styling as needed */
+  
+  .property {
+    font-size: 1.25rem;
+    font-family: "Karla", sans-serif;
+    padding: 20px;
+    margin-right: auto;
+    color: #0c78ec;
+   
+
+    
+  }
+
+  .button {
+   
+    font-family: "Karla", sans-serif;
+    border-radius: 5px;
+    background: linear-gradient(90.41deg, #0c78ec 1.14%, #67a6ea 100%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    
+}
+  
+
+.header {
+    display: flex;
+    align-items: center;
+    height: 65px;
+    background: linear-gradient(90deg, #67a6ea 1.18%, #145cb4 100%);
+    color: white;
+    padding: 20px;
+}
+
+.fontcolor{
+    display: flex;
+    align-items: center;
+    height: 250px;
+    font-size: 1.25rem;
+    font-family: "Karla", sans-serif;
+    text-indent: 5px;
+    gap: 20px;
+    
+}
+ 
+
+.movement--buttons{
+   margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+      }
+
+.undo--buttons{
+    display: flex;
+    gap: 10px;
+}
+  
+
+.font-select{
+    background-color: #8fbef0;
+  color: white;
+}
+
+.text-item-input{
+    margin-top: 40px;
+}

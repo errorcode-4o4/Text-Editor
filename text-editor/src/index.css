@@ -1,0 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
+.resizer right{
+  border-right: 100px solid #ccc;
+}
