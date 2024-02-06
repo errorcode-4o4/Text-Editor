@@ -89,7 +89,7 @@ const TextItem = ({ text, font, color, size, top, left, onClick, draggable, edit
       onBlur={handleBlur}
     >
       {editable ? (
-        <input type="text" placeholder='Text here' value={editedText} onChange={handleChange} className="text-item-input" />
+        <textarea type="text" placeholder='Text here' value={editedText} onChange={handleChange} className="text-item-input" />
       ) : (
         <span>{text}</span>
       )}
